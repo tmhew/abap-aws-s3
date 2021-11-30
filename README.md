@@ -3,7 +3,7 @@
 ABAP wrapper around AWS S3 REST API.
 
 ## Dependencies
-You'll need the following library in your ABAP platform to use AWS S3 for ABAP library:
+You'll need the following library in your ABAP platform to use AWS S3 for ABAP:
 
 + [AWS Signature V4 for ABAP](https://github.com/tmhew/abap-aws-sigv4)
 
