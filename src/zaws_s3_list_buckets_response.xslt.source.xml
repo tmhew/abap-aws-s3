@@ -1,0 +1,31 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+
+  <tt:root name="PAYLOAD"/>
+
+  <tt:template>
+    <ListAllMyBucketsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+      <Owner>
+        <ID>
+            <tt:value ref="PAYLOAD.OWNER.ID"/>
+        </ID>
+        <DisplayName>
+            <tt:value ref="PAYLOAD.OWNER.DISPLAY_NAME"/>
+        </DisplayName>
+      </Owner>
+      <Buckets>
+        <tt:loop ref=".PAYLOAD.BUCKETS">
+            <Bucket>
+              <Name>
+                <tt:value ref="$ref.name"/>
+              </Name>
+              <CreationDate>
+                <tt:value ref="$ref.creation_date"/>
+              </CreationDate>
+            </Bucket>
+        </tt:loop>
+      </Buckets>
+    </ListAllMyBucketsResult>
+  </tt:template>
+
+</tt:transform>
