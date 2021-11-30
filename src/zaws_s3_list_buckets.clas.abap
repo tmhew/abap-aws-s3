@@ -179,7 +179,7 @@ class zaws_s3_list_buckets implementation.
 
     if status_code = '200'.
         data(bucket_list) = zaws_s3_list_buckets=>parse_response_payload( payload ).
-        out->write( bucket_list-owner-display_name ).
+        out->write( bucket_list-buckets ).
     else.
         out->write( payload ).
     endif.
