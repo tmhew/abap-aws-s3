@@ -9,7 +9,7 @@ You'll need the following library in your ABAP platform to use AWS S3 for ABAP l
 
 ## Supported S3 Actions
 
-These are highly opinionated wrappers around the respective S3 actions and by no mean meant to be comprehensive. If you have use cases that are not covered by these wrappers, consider implementing your own wrappers by making use of [AWS Signature V4 for ABAP](https://github.com/tmhew/abap-aws-sigv4).
+These are highly opinionated wrappers around the respective S3 actions and by no mean meant to be comprehensive. If you have use cases that are not covered by these wrappers, consider implementing your own wrappers with [AWS Signature V4 for ABAP](https://github.com/tmhew/abap-aws-sigv4).
 
 | S3 Action | ABAP Object |
 |-----------|-------------|
