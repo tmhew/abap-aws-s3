@@ -14,6 +14,7 @@ These are highly opinionated wrappers around the respective S3 actions and by no
 | S3 Actions | ABAP Objects |
 |------------|--------------|
 | [ListBuckets](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListBuckets.html) | [ZAWS_S3_LIST_BUCKETS](https://github.com/tmhew/abap-aws-s3/blob/main/src/zaws_s3_list_buckets.clas.abap) |
+| [ListObjectsV2](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListObjectsV2.html) | [ZAWS_S3_LIST_OBJECTS_V2](https://github.com/tmhew/abap-aws-s3/blob/main/src/zaws_s3_list_objects_v2.clas.abap) |
 | [PutObject](https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html) | [ZAWS_S3_PUT_OBJECT](https://github.com/tmhew/abap-aws-s3/blob/main/src/zaws_s3_put_object.clas.abap) |
 | [GetObject](https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html) | [ZAWS_S3_GET_OBJECT](https://github.com/tmhew/abap-aws-s3/blob/main/src/zaws_s3_get_object.clas.abap) |
 
